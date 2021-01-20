@@ -1,0 +1,28 @@
+
+# Site Settings
+
+base_url: "https://manufacturist.org"
+
+mfr_contact_url: "https://www.themanufacturer.com/contact-us/"
+
+podcast_dir_apple_url: "https://podcasts.apple.com/us/podcast/feed/id1493919129"
+podcast_dir_google_url: "https://podcasts.google.com/?feed=aHR0cHM6Ly9ob3N0Lm1hbnVmYWN0dXJpc3Qub3JnL3Jzcw"
+podcast_dir_stitcher_url: "https://www.stitcher.com/s?fid=495621"
+podcast_dir_spotify_url: "https://open.spotify.com/show/0ADwrQoE5fDEHim6DG1rrk"
+
+podcast_rss_url: "https://host.manufacturist.org/rss"
+
+podcast_media_url: "https://traffic.libsyn.com/secure/manufacturist/"
+
+social_email_url: "mailto:hello@manufacturist.org"
+social_linkedin_url: "https://linkedin.com/company/manufacturist"
+
+podcast_schedule_intro_url: "/podcast/schedule-intro"
+podcast_schedule_interview_url: "/podcast/schedule-interview"
+
+# Build Settings
+markdown: kramdown
+exclude: [README.md", "assets", "*.yml", "*.sh"]
+
+sass:
+  style: compressed

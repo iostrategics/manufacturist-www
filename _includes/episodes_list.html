@@ -1,0 +1,16 @@
+{% for ep in site.data.episodes %}
+{% if forloop.index < include.count %}
+<div class="episode-box">
+    <h4><a href="/podcast/episodes/{{ ep[1].slug }}" class="no-underline">{{ ep[1].title }}</a></h4>
+    <br />
+    <p><strong>Episode {{ ep[1].num }} Season {{ ep[1].season }}</strong></p>
+    <p>{{ ep[1].published_date | date: "%d %B %Y"}} | {{ ep[1].duration }} minutes</p>
+    <p>{{ ep[1].description }}</p>
+    <p class="text-lg-right"><a href="/podcast/episodes/{{ ep[1].slug }}" class="text-upper">Episode details &amp; transcript &rarr;</a>
+    </p>
+    <br />
+    {% assign audio_path = ep[1].audio_path %}
+    {% include audio_player.html path=audio_path %}
+</div>
+{% endif %}
+{% endfor %}

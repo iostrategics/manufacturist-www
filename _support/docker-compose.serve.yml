@@ -1,0 +1,7 @@
+jekyll_manufacturist_www_dev:
+    image: jekyll/jekyll
+    command: jekyll serve --watch --incremental --config _config.yml,_config.dev.yml
+    ports:
+        - 4000:4000
+    volumes:
+        - ../.:/srv/jekyll

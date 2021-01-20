@@ -1,0 +1,110 @@
+<footer class="footer mt-auto">
+    <section class="footer__functions">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5">
+                    <h4>For Serious Help</h4>
+                    <p>
+                        <div class="footer__mfr-sponsor-logo-box">
+                            <a href="{{ site.mfr_contact_url}}" target="_blank"><img
+                                    src="/img/the-manufacturer-logo.svg" style="width: 100%" /></a>
+                        </div>
+                    </p>
+                    <p>
+                        Our partner, The Manufacturer, is a globally respected, board-level resource for manufacturing
+                        organizations.
+                    </p>
+                    <p>
+                        With their valuable introductions, we're able to give you inside access to the world's leading
+                        experts at no cost as a non-profit service to the community.
+                    </p>
+                    <p>
+                        Please consider <a href="{{ site.mfr_contact_url}}" target="_blank">reaching out to
+                            them</a> when looking for guidance or supplier
+                        introductions.
+                    </p>
+                    <br />
+                    <br />
+                </div>
+                <div class="col-lg-6 offset-lg-1">
+                    <div class="dropdown">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Listen on
+                        </button>
+                        <div class="footer__podcast-directories-menu dropdown-menu"
+                            aria-labelledby="dropdownMenuButton">
+                            {% include listen_on_links.html %}
+                        </div>
+                    </div>
+                    <br />
+                    <br />
+                    <h4>Recent Episodes</h4>
+                    <!--  -->
+                    {% for ep in site.data.episodes %}
+                    {% if forloop.index < 3 %}
+                    <ul class="footer__ep-list">
+                        <li class="footer__ep-list-item"><a href="/podcast/episodes/{{ ep[1].slug }}">{{ ep[1].season }} Ep {{ ep[1].num }}<br /> {{ ep[1].title }}</a>
+                        </li>
+                    </ul>
+                    {% endif %}
+                    {% endfor %}
+                    <br />
+                    <!-- <h4>Stay Tuned</h4>
+                    <form class="footer__subscribe-form form d-block mr-auto"
+                        action="https://manufacturist.us4.list-manage.com/subscribe/post?u=f7b1646a2802ccb13aa74be86&id=0793bf6135"
+                        method="post" target="_blank">
+                        <p>Get email notifications and occasional event invitations.</p>
+                        <input type="text" class="form-control my-1" name="FNAME" placeholder="Your Name" />
+                        <input type="email" class="form-control my-1" name="EMAIL" placeholder="Your Email" />
+                        <input type="submit" class="btn btn-info btn-block my-1" value="Submit" />
+                    </form>
+                    <br /> -->
+                    <h4>Share</h4>
+                    {% include sharethis_inline.html %}
+                    <br />
+                    <br />
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="footer__info">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 text-center text-lg-left">
+                    <br />
+                    <p class="font-weight-bold">
+                        &copy; Manufacturist
+                    </p>
+                </div>
+                <div class="col-lg-6 text-center">
+                    <br />
+                    <p>
+                        Created and hosted by <a href="https://www.linkedin.com/in/perryonfire" target="_blank">Chad Perry</a>.
+                    </p>
+                    <br />
+                </div>
+                <div class="footer__social col-lg-3 text-center text-lg-right">
+                    <span class="icon-stack">
+                        <a href="{{ site.social_linkedin_url }}" title="Find Manufacturist on LinkedIn">
+                            <i class="icon icon-circle icon-stack-2x"></i>
+                            <i class="icon icon-linkedin icon-stack-1x"></i>
+                        </a>
+                    </span>
+                    <!-- <span class="icon-stack">
+                        <a href="{{ site.social_email_url }}" title="Send us an email">
+                            <i class="icon icon-circle icon-stack-2x"></i>
+                            <i class="icon icon-mail-alt icon-stack-1x"></i>
+                        </a>
+                    </span> -->
+                    <span class="icon-stack">
+                        <a href="{{ site.podcast_rss_url }}" title="Subscribe to Manufacturist RSS feed">
+                            <i class="icon icon-circle icon-stack-2x"></i>
+                            <i class="icon icon-rss icon-stack-1x"></i>
+                        </a>
+                    </span>
+                </div>
+            </div>
+        </div>
+    </section>
+</footer>

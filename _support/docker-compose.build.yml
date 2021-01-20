@@ -1,0 +1,5 @@
+jekyll_manufacturist_www_build:
+    image: jekyll/jekyll
+    command: jekyll build --config _config.yml
+    volumes:
+        - ../.:/srv/jekyll

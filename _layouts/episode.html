@@ -1,0 +1,147 @@
+---
+layout: default
+---
+
+{% assign ep = site.data.episodes[page.ep_id] %}
+{% assign audio_path = ep.audio_path %}
+
+<div class="container">
+	<p>
+		<span class="text-highlight_color_yellow">Manufacturist interviews have concluded! Thank you to all of our
+			guests for sharing your hard-won experiences with the community.</span>
+	</p>
+	<p>
+		For our listeners, if you enjoyed these interviews then definitely check out our new show coming soon,
+		which will cover a wider range of Industry 4.0 topics beyond manufacturing but with the same expert interview format.
+	</p>
+	<p>
+		Industrial Evolution is now live at <a href="https://evolution.industrial.fm">https://evolution.industrial.fm</a>. See you
+		there!
+	</p>
+	<br>
+	<section>
+		<div class="row">
+			<div class="col-lg-6">
+				<img src="/img/cover-wide.jpg" class="img-fluid" alt="Episode cover art">
+				<br />
+				<br />
+				<br />
+				<h2>Episode {{ ep.num }} Season {{ ep.season }}</h2>
+				<p><strong>{{ ep.title }}</strong></p>
+				<p>
+					Length: {{ ep.duration }} minutes
+				</p>
+				<p>
+					{{ ep.description }}
+				</p>
+				<br />
+				<div>
+					{% include audio_player.html path=audio_path %}
+					<!-- <iframe style="border: none"
+						src="//html5-player.libsyn.com/embed/episode/id/{{ ep.libsyn_id }}/height/50/theme/legacy/thumbnail/no/direction/backward/"
+						height="50" width="100%" scrolling="no" allowfullscreen webkitallowfullscreen mozallowfullscreen
+						oallowfullscreen msallowfullscreen></iframe> -->
+				</div>
+				<br />
+				<div>
+					{% include sharethis_inline.html %}
+				</div>
+				<br />
+			</div>
+			<div class="col-lg-5 offset-lg-1 episode-attributes">
+				<h6>Guest(s)</h6>
+				{% for guest in ep.guests %}
+				<p>
+					<strong>{{ guest.name }}</strong>
+					<br />
+					{{ guest.title }}
+					<br />
+					&ndash; {{ guest.org }}
+				</p>
+				{% endfor %}
+				<h6>Host(s)</h6>
+				{% for host in ep.hosts %}
+				<p>
+					{{ host.name }}
+				</p>
+				{% endfor %}
+				<!-- <h6>Recorded</h6>
+				<p>
+					{{ ep.recorded_date | date: "%d %B %Y"}}
+				</p> -->
+				<h6>Published</h6>
+				<p>
+					{{ ep.published_date | date: "%d %B %Y"}}
+				</p>
+				<h6>References</h6>
+				{% for ref in ep.refs %}
+				<p>
+					<a href="{{ ref.url }}" target="_blank">{{ ref.label }}</a>
+				</p>
+				{% endfor %}
+			</div>
+		</div>
+	
+		<br />
+		<br />
+	
+		<section>
+			<h3>Read the Transcript</h3>
+			<hr />
+	
+			<div class="text-right">
+				<!-- <div class="dropdown d-md-inline-block">
+					<button class="btn btn-dark btn-block dropdown-toggle" type="button" id="dropdownMenuButton"
+						data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						Translations
+					</button>
+					<div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+						<a class="dropdown-item" data-toggle="pill" href="#transcript-en" role="tab">English</a>
+						<a class="dropdown-item" data-toggle="pill" href="#transcript-de" role="tab">Deutsch</a>
+						<a class="dropdown-item" data-toggle="pill" href="#transcript-fr" role="tab">Français</a>
+						<a class="dropdown-item" data-toggle="pill" href="#transcript-es" role="tab">Español</a>
+						<a class="dropdown-item" data-toggle="pill" href="#transcript-pt" role="tab">Português</a>
+						<a class="dropdown-item" data-toggle="pill" href="#transcript-it" role="tab">Italiano</a>
+						<a class="dropdown-item" data-toggle="pill" href="#transcript-nl" role="tab">Nederlands</a>
+						<a class="dropdown-item" data-toggle="pill" href="#transcript-pl" role="tab">Polski</a>
+					</div>
+				</div>
+				<br class="d-md-none" /> -->
+				<div class="dropdown d-md-inline-block">
+					<button class="btn btn-secondary btn-block dropdown-toggle" type="button" id="dropdownMenuButton"
+						data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+						Listen on
+					</button>
+					<div class="footer__podcast-directories-menu dropdown-menu" aria-labelledby="dropdownMenuButton">
+						{% include listen_on_links.html %}
+					</div>
+				</div>
+			</div>
+	
+			<br />
+	
+			<!-- <div class="tab-content">
+				<div class="tab-pane fade show active" id="transcript-en" role="tabpanel">
+					English...
+				</div>
+				<div class="tab-pane fade" id="transcript-de" role="tabpanel">
+					<h4>Deutsch Translation</h4>
+					<p>Automatisch maschinell übersetzt... bitte entschuldigen Sie etwaige Fehler.</p>
+					German...
+				</div>
+			</div> -->
+	
+			<p>
+				[General intro omitted.]
+			</p>
+			{% capture filename %}episode_transcripts/{{ page.ep_id }}/en.md{% endcapture %}
+			{% capture transcript %}{% include {{ filename }} %}{% endcapture %}
+			{{ transcript | markdownify }}
+	
+			<p>
+				[General outro omitted.]
+			</p>
+		</section>
+	
+		<section>
+</div>

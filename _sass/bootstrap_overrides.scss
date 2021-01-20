@@ -1,0 +1,31 @@
+
+.btn {
+  text-transform: uppercase;
+  font-size: 0.85rem;
+  font-weight: bold;
+  font-family: $font-family-headers;
+  color: $palette-white;
+  text-decoration: none;
+  letter-spacing: 1.2px;
+}
+
+.navbar {
+  min-height: $navbar-height;
+  border-bottom: solid 1px rgba(255, 255, 255, 0.2);
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.navbar a {
+  text-decoration: none;
+}
+
+.navbar .navbar-toggler {
+  border: none;
+  padding: 0;
+}
+
+.navbar .menu {
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  font-family: $font-family-headers;
+}

@@ -1,0 +1,45 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $font-family-headers;
+}
+
+.text-highlight_color_yellow {
+  color: #333;
+  background-color: #ffef00;
+}
+
+a.no-underline,
+a:link.no-underline,
+a:active.no-underline,
+a:hover.no-underline,
+a:visited.no-underline {
+  text-decoration: none;
+}
+
+
+.checklist {
+  list-style: none;
+  padding-left: 0;
+}
+
+.checklist li {
+  position: relative;
+  padding-left: 2.5em;
+  margin-top: .4em;
+}
+
+.checklist li:before {
+  content: "\2713\0020";
+  position: absolute;
+  left: 1em;  /* place the SVG at the start of the padding */
+  width: 1em;
+  height: 1em;
+}
+
+.text-upper {
+  text-transform: uppercase;
+}

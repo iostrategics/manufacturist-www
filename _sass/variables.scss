@@ -1,0 +1,84 @@
+// Fonts
+
+$font-family-headers: "Roboto",
+  // Safari for macOS and iOS (San Francisco)
+    -apple-system,
+  // Chrome < 56 for macOS (San Francisco)
+    BlinkMacSystemFont,
+  // Windows
+    "Segoe UI",
+  // Android
+    "Roboto",
+  // Basic web fallback
+    "Helvetica Neue",
+  Arial, sans-serif,
+  // Emoji fonts
+    "Apple Color Emoji",
+  "Segoe UI Emoji", "Segoe UI Symbol";
+
+$font-family-body: "Open Sans",
+  // Safari for macOS and iOS (San Francisco)
+    -apple-system,
+  // Chrome < 56 for macOS (San Francisco)
+    BlinkMacSystemFont,
+  // Windows
+    "Segoe UI",
+  // Android
+    "Roboto",
+  // Basic web fallback
+    "Helvetica Neue",
+  Arial, sans-serif,
+  // Emoji fonts
+    "Apple Color Emoji",
+  "Segoe UI Emoji", "Segoe UI Symbol";
+
+// Palette
+
+$palette-white: #ffffff;
+$palette-black: #000000;
+
+$palette-blue-medium: #3b5987;
+$palette-blue-brand: #263669;
+$palette-blue-baby: #5bc0de;
+$palette-blue-steel: #8896b0;
+$palette-blue-sky: #edf5f8;
+
+$palette-green: #20bb60;
+
+$palette-dark-gray-lighter: #2b2d30;
+$palette-dark-gray-darker: #222426;
+$palette-dark-gray-overlay-light: rgba(255, 255, 255, 0.3);
+$palette-dark-gray-overlay-lighter: rgba(255, 255, 255, 0.5);
+$palette-dark-gray-overlay-lightest: rgba(255, 255, 255, 0.8);
+
+// Boostrap Overrides
+
+$body-bg: #fff;
+$body-color: $palette-blue-medium;
+
+$theme-colors: (
+  primary: $palette-blue-brand,
+  secondary: $palette-green,
+  info: $palette-blue-baby,
+  night: $palette-black
+);
+
+// $border-radius: 0.3rem;
+// $border-radius-lg: 0.35rem;
+// $border-radius-sm: 0.25rem;
+
+$link-decoration: underline;
+
+$font-family-base: $font-family-body;
+
+$navbar-dark-color: rgba($palette-white, 0.9);
+$navbar-dark-hover-color: rgba($palette-white, 1);
+$navbar-dark-active-color: $navbar-dark-color;
+$navbar-dark-disabled-color: rgba($palette-white, 0.6);
+// $navbar-dark-toggler-border-color: rgba($palette-white, 0.4);
+// $navbar-dark-toggler-border-color: $palette-blue-steel;
+
+
+// Custom
+
+$navbar-height: 90px;

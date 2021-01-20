@@ -1,0 +1,362 @@
+2020016:
+    season: 2020
+    num: 16
+    slug: 2020-016-series-conclusion
+    duration: 9    
+    audio_path: 2020-016_v2020-07-21_Final.mp3
+    recorded_date: 2020-07-21
+    published_date: 2020-07-21
+    title: "Series Conclusion & Lessons Learned"
+    description: "A summary of lessons learned from our expert interviews."
+    hosts:
+        -
+            name: Chad Perry
+    guests:
+    refs:
+
+2020015:
+    season: 2020
+    num: 15
+    slug: 2020-015-accelerating-human-performance-backed-by-digital-tools-david-hazell-check-6
+    duration: 53    
+    audio_path: 2020-015_v2020-07-07_Interview_with_David_Hazell_-_Check-6.mp3
+    recorded_date: 2020-04-30
+    published_date: 2020-07-07
+    title: "Accelerating Human Performance Backed by Digital Tools with David Hazell (Check-6)"
+    description: "Check-6 Vice President and former fighter pilot, David Hazell (callsign Nutty), encapsulates decades of elite training into the trifecta of change management - how leadership, culture, and process improvement (backed by digital tools) are vital to a successful digital transformation."
+    hosts:
+        -
+            name: Chad Perry
+    guests:
+        -
+            name: David Hazell
+            title: VP, Chief Revenue Officer, Aviator
+            org: Check-6
+        -
+            name: Jenny Eve
+            title: Director of Marketing and Public
+            org: Check-6
+    refs:
+        -
+            url: https://checksix.com
+            label: https://checksix.com
+2020014:
+    season: 2020
+    num: 14
+    slug: 2020-014-assessing-digital-maturity-driving-change-with-benjamin-minard-agoria
+    duration: 68
+    audio_path: 2020-014_v2020-06-23_Interview_with_Benjamin_Minard_-_Agoria.mp3
+    recorded_date: 2020-04-28
+    published_date: 2020-06-23
+    title: "Assessing Digital Maturity and Driving Change with Benjamin Minard (Agoria)"
+    description: "Agoria's Innovation Expert, Benjamin Minard, reveals the three pillars of digital maturity - based on practical lessons from a 2019 study conducted with over 400 SME manufacturers representing every point along the digital journey."
+    hosts:
+        -
+            name: Chad Perry
+    guests:
+        -
+            name: Benjamin Minard
+            title: Innovation Expert
+            org: Agoria
+    refs:
+        -
+            url: https://www.agoria.be
+            label: https://www.agoria.be
+2020013:
+    season: 2020
+    num: 13
+    slug: 2020-013-from-lab-to-real-world-advanced-manufacturing-with-tim-andrews-mtc
+    duration: 41
+    audio_path: 2020-013_v2020-06-09_Interview_with_Tim_Andrews_-_MTC.mp3
+    recorded_date: 2020-02-25
+    published_date: 2020-06-09
+    title: "From Lab to Real-World Advanced Manufacturing with Tim Andrews (MTC)"
+    description: "Tim Andrews and Magnus McFarlane of UK's MTC take us through the collaborative process they're using to get competitive technologies out of the lab and into the hands of small manufacturers who lean on MTC's resources and network to quickly adopt advanced manufacturing capabilities."
+    hosts:
+        -
+            name: Chad Perry
+    guests:
+        -
+            name: Tim Andrews
+            title: Lead Advisor in Digital Transformation
+            org: Manufacturing Technology Centre
+        -
+            name: Magnus McFarlane
+            title: Lead Advisor in Business Transformation
+            org: Manufacturing Technology Centre (UK)
+    refs:
+        -
+            url: http://www.the-mtc.org
+            label: http://www.the-mtc.org
+2020012:
+    season: 2020
+    num: 12
+    slug: 2020-012-people-history-philosophy-driving-the-business-model-of-the-future-with-roy-woodhead-sheffield-hallam-university
+    duration: 54
+    audio_path: 2020-012_v2020-05-26_Interview_with_Roy_Woodhead_-_Sheffield_Hallam_Uni.mp3
+    recorded_date: 2020-04-01
+    published_date: 2020-05-26
+    title: "People, History, and Philosophy: Driving the Business Model of the Future with Roy Woodhead (Sheffield Hallam University)"
+    description: "Roy Woodhead, senior lecturer with 30 years in commercial and academic settings, provides a uniquely enlightened perspective on the integration of people and technology to counter natural human barriers that hinder more productive digital workflows."
+    hosts:
+        -
+            name: Chad Perry
+    guests:
+        -
+            name: Roy Woodhead
+            title: Senior Lecturer in Digital Innovation
+            org: Sheffield Hallam University
+    refs:
+        -
+            url: https://www.shu.ac.uk
+            label: https://www.shu.ac.uk
+2020011:
+    season: 2020
+    num: 11
+    slug: 2020-011-no-nerds-required-low-cost-and-low-code-process-automation-with-peter-rifken-quick-base
+    duration: 57
+    audio_path: 2020-011_v2020-05-18_Interview_with_Peter_Rifken_-_Quick_Base.mp3
+    recorded_date: 2020-03-25
+    published_date: 2020-05-12
+    title: "No Nerds Required: Low-Cost and Low-Code Process Automation with Peter Rifken (Quick Base)"
+    description: "Low-code software expert, Peter Rifken, and his sidekick Sunniya Saleem, share how SME manufacturers can build custom tools that get them closer to their customers... in a matter of hours, without the typical reliance on I.T. and costly investments."
+    hosts:
+        -
+            name: Chad Perry
+    guests:
+        -
+            name: Peter Rifken
+            title: Principal Solutions Consultant
+            org: Quick Base
+        -
+            name: Sunniya Saleem
+            title: Head of Demand Generation &amp; Digital Marketing
+            org: Quick Base
+    refs:
+        -
+            url: https://www.quickbase.com
+            label: https://www.quickbase.com
+2020010:
+    season: 2020
+    num: 10
+    slug: 2020-010-leadership-culture-training-mobilize-your-digital-transformation-with-malcolm-jeffers-iaae
+    duration: 54
+    audio_path: 2020-010_v2020-04-27_Interview_with_Malcolm_Jeffers_-_IAAE.mp3
+    recorded_date: 2020-03-23
+    published_date: 2020-04-28
+    title: "Leadership, Culture, and Training to Mobilize Your Digital Transformation with Malcolm Jeffers (IAAE)"
+    description: "Transformation strategist, Malcolm Jeffers, explores digital operations leadership, cultural shifts, and training - the foundational elements necessary to remain competitive as a producer and an employer."
+    hosts:
+        -
+            name: Chad Perry
+    guests:
+        -
+            name: Malcolm Jeffers
+            title: Digital Operations Transformation Strategist
+            org: International Academy of Automation Engineering
+    refs:
+        -
+            url: https://www.myiaae.org
+            label: https://www.myiaae.org
+2020009:
+    season: 2020
+    num: 9
+    slug: 2020-009-the-role-of-digital-scaling-family-operation-to-global-leader-with-william-butler-adams-brompton-bicycle
+    duration: 63
+    audio_path: 2020-009_v2020-04-14_Interview_with_William_Butler-Adams_-_Brompton_Bicycle.mp3
+    recorded_date: 2020-03-20
+    published_date: 2020-04-14
+    title: "The Role of Digital in Scaling from Family Operation to Global Leader with William Butler-Adams (Brompton Bicycle)"
+    description: "Chief Business Guy on a Bike, Will Butler-Adams, shares how he and his unconventional team used digital tools to take Brompton from a solo inventor's passion project to #1 globally beloved folding city bike."
+    hosts:
+        -
+            name: Chad Perry
+    guests:
+        -
+            name: William Butler-Adams
+            title: CEO
+            org: Brompton Bicycle
+    refs:
+        -
+            url: https://www.brompton.com
+            label: https://www.brompton.com
+2020008:
+    season: 2020
+    num: 8
+    slug: 2020-008-the-four-phases-of-revolutionary-digital-transformation-with-tim-figures-make-uk
+    duration: 59
+    audio_path: 2020-008_v2020-03-31_Interview_with_Tim_Figures_-_Make_UK.mp3
+    recorded_date: 2020-02-21
+    published_date: 2020-03-31
+    title: "The Four Phases of Revolutionary Digital Transformation with Tim Figures (Make UK)"
+    description: "Make UK's policy director, Tim Figures, breaks down the four stages of digital transformation that any SME manufacturer can follow to remain competitive, no matter where they're starting."
+    hosts:
+        -
+            name: Chad Perry
+    guests:
+        -
+            name: Tim Figures
+            title: Director of Technology, Sustainability and Innovation
+            org: Make UK
+    refs:
+        -
+            url: https://www.makeuk.org
+            label: https://www.makeuk.org
+2020007:
+    season: 2020
+    num: 7
+    slug: 2020-007-driving-digital-transformation-culturally-internally-with-marco-del-seta-consultant
+    duration: 50
+    audio_path: 2020-007_v2020-03-16_Interview_with_Marco_Del_Seta.mp3
+    recorded_date: 2020-03-02
+    published_date: 2020-03-17
+    title: "Driving Digital Transformation Culturally and Internally with Marco Del Seta (Consultant)"
+    description: "From Silicon Valley engineer to manufacturing transformation expert, Marco Del Seta discusses size advantages and how small manufacturers can drive digital transformation organically from within by leveraging existing culture."
+    hosts:
+        -
+            name: Chad Perry
+    guests:
+        -
+            name: Marco Del Seta
+            title: Digital Transformation Consultant
+            org: Independent
+    refs:
+        -
+            url: https://www.linkedin.com/in/marco-del-seta
+            label: https://www.linkedin.com/in/marco-del-seta
+2020006:
+    season: 2020
+    num: 6
+    slug: 2020-006-staying-lean-continuous-improvement-better-tools-with-calvin-williams-impruver-technologies
+    duration: 50
+    audio_path: 2020-006_v2020-03-02_Interview_with_Impruver_Technologies.mp3
+    recorded_date: 2020-02-18
+    published_date: 2020-03-03
+    title: "Staying Lean, Continuous Improvement, and Better Tools with Calvin Williams (Impruver Technologies)"
+    description: "Lean manufacturing expert, Calvin Williams, breaks down years of continuous improvement principles from some of the biggest, baddest global manufacturing companies into practical steps and simple tools for small manufacturers."
+    hosts:
+        -
+            name: Chad Perry
+    guests:
+        -
+            name: Calvin Williams
+            title: Founder &amp; CEO
+            org: Impruver Technologies
+    refs:
+        -
+            url: https://impruver.com
+            label: https://impruver.com
+2020005:
+    season: 2020
+    num: 5
+    slug: 2020-005-disruptive-3d-printing-using-assets-more-efficiently-with-dr-elliot-street-inovus-medical
+    duration: 58
+    audio_path: 2020-005_v2020-02-12_Interview_with_Inovus_Medical.mp3
+    recorded_date: 2020-02-06
+    published_date: 2020-02-18
+    title: "Disruptive 3D Printing and Using Assets More Efficiently with Dr Elliot Street (Inovus Medical)"
+    description: "Surgeon and manufacturing leader, Elliot Street, shares the incredible tale of bootstrapping a disruptive new business model (straight out of medical school) based on 3D printing and staying competitive at 1/10th market pricing... while actively practicing medicine!"
+    hosts:
+        -
+            name: Chad Perry
+    guests:
+        -
+            name: Elliot Street
+            title: CEO, Doctor
+            org: Inovus Medical
+    refs:
+        -
+            url: https://www.inovus.org
+            label: https://www.inovus.org
+2020004:
+    season: 2020
+    num: 4
+    slug: 2020-004-building-the-perfect-digital-toolkit-from-scratch-with-mike-jessop-moo-free-chocolates
+    duration: 57
+    audio_path: 2020-004_v2020-02-04_Interview_with_Moo_Free_Chocolates.mp3
+    recorded_date: 2020-01-27
+    published_date: 2020-02-04
+    title: "Building the Perfect Digital Toolkit from Scratch with Mike Jessop (Moo Free Chocolates)"
+    description: "From I.T. professional to cutting edge industrial chocolatier with a healthy twist, Mike Jessop recounts the pain and gain of building the equivalent of an ERP from scratch... and when to forego digital tools in favor of old fashioned chocolate-stained paper forms."
+    hosts:
+        -
+            name: Chad Perry
+    guests:
+        -
+            name: Mike Jessop
+            title: Co-founder
+            org: Moo Free Chocolates
+    refs:
+        -
+            url: https://www.moofreechocolates.com
+            label: https://www.moofreechocolates.com
+2020003:
+    season: 2020
+    num: 3
+    slug: 2020-003-integrated-e-commerce-on-demand-print-manufacturing-with-darren-joint-viking-signs
+    duration: 53
+    audio_path: 2020-003_v2020-01-28_Interview_with_Viking_Signs.mp3
+    recorded_date: 2019-12-20
+    published_date: 2020-01-28
+    title: "Integrated E-commerce for On-Demand Print Manufacturing with Darren Joint (Viking Signs)"
+    description: "Using e-commerce and fully integrated data to enable same-day shipping of print-on-demand custom products. Corporate-turned-entrepreneur Darren Joint shares his story and biggest lesson learned becoming a small but mighty digital manufacturer."
+    hosts:
+        -
+            name: Chad Perry
+    guests:
+        -
+            name: Darren Joint
+            title: Managing Director
+            org: Viking Signs
+    refs:
+        -
+            url: https://www.vikingmanufacturing.co.uk
+            label: https://www.vikingmanufacturing.co.uk
+2020002:
+    season: 2020
+    num: 2
+    slug: 2020-002-fail-fast-digital-manufacturing-with-william-bridgman-warren-services
+    duration: 61
+    audio_path: 2020-002_v2020-01-21_Interview_with_Warren_Services.mp3
+    recorded_date: 2019-12-03
+    published_date: 2020-01-21
+    title: "Fail-Fast Digital Manufacturing with William Bridgman (Warren Services)"
+    description: "Easy, low-cost steps you can take to digitize without disrupting your operation. UK Top 100 manufacturing veteran William Bridgman shares his story and how to fail fast with small experiments plus leveraging digital skills of young apprentices."
+    hosts:
+        -
+            name: Chad Perry
+    guests:
+        -
+            name: William Bridgman
+            title: Chairman
+            org: Warren Services
+    refs:
+        -
+            url: http://www.warrenservices.co.uk/
+            label: www.warrenservices.co.uk
+2020001:
+    season: 2020
+    num: 1
+    slug: 2020-001-do-it-or-die-urgency-of-industry-4-0-with-the-manufacturer
+    duration: 29
+    audio_path: 2020-001_v2020-01-14_Interview_with_The_Manufacturer.mp3
+    recorded_date: 2019-12-19
+    published_date: 2020-01-14
+    title: "\"Do it or die!\" - The Urgency of Industry 4.0 with The Manufacturer"
+    description: "A candid perspective on the emerging reality of competition from two experts at the crossroads of the manufacturing industry. Nick Peters and Henry Anson explain why small manufacturers must embrace digital technology \"or die\"!"
+    hosts:
+        -
+            name: Chad Perry
+    guests:
+        -
+            name: Nick Peters
+            title: Editorial Director
+            org: The Manufacturer
+        -
+            name: Henry Anson
+            title: Managing Director
+            org: Hennik Group
+    refs:
+        -
+            url: https://www.themanufacturer.com
+            label: https://www.themanufacturer.com

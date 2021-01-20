@@ -1,0 +1,8 @@
+{% if page.ep_id %}
+{% capture override_heading %}{{ site.data.episodes[page.ep_id].title }}{% endcapture %}
+{% endif %}
+
+<div class="align-self-center mx-auto text-center">
+    <h1 class="align-self-center mx-auto text-center py-2">{{ override_heading | default: page.heading }}</h1>
+    <p class="font-weight-bold0">{{ page.subheading }}</p>
+</div>
