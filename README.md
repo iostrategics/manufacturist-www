@@ -1,5 +1,7 @@
 # manufacturist.org
 
+Marketing site.
+
 ## Get started
 
 Install jekyll: https://jekyllrb.com/docs/installation/
