@@ -12,9 +12,9 @@ podcast_dir_spotify_url: "https://open.spotify.com/show/0ADwrQoE5fDEHim6DG1rrk"
 
 podcast_rss_url: "https://host.manufacturist.org/rss"
 
-podcast_media_url: "https://traffic.libsyn.com/secure/manufacturist/"
+podcast_media_url: "https://host.manufacturist.org/media/audio/"
 
-social_email_url: "mailto:hello@manufacturist.org"
+social_email_url: "mailto:hello@iostrategics.com"
 social_linkedin_url: "https://linkedin.com/company/manufacturist"
 
 podcast_schedule_intro_url: "/podcast/schedule-intro"
